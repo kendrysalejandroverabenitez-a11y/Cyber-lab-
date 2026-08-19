@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber Lab</title>
 
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #05070d;
+      color: #00eaff;
+      font-family: Arial, sans-serif;
+    }
+
+    .lab {
+      width: 90%;
+      max-width: 500px;
+      padding: 35px 25px;
+      text-align: center;
+      background: #0b101a;
+      border: 1px solid #00eaff;
+      border-radius: 18px;
+      box-shadow: 0 0 30px #00eaff55;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 38px;
+      letter-spacing: 4px;
+    }
+
+    .line {
+      width: 80%;
+      height: 2px;
+      margin: 15px auto;
+      background: #00eaff;
+      box-shadow: 0 0 10px #00eaff;
+    }
+
+    p {
+      color: #b7c4d6;
+      font-size: 16px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 13px 28px;
+      border: 0;
+      border-radius: 8px;
+      background: #00eaff;
+      color: #031016;
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    button:active {
+      transform: scale(0.96);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="lab">
+    <h1>CYBER LAB</h1>
+
+    <div class="line"></div>
+
+    <p>Laboratorio Cibernético</p>
+    <p>Sistema preparado para iniciar.</p>
+
+    <button onclick="alert('⚡ SISTEMA ONLINE ⚡')">
+      INICIAR SISTEMA
+    </button>
+  </div>
+
+</body>
+  </html>
